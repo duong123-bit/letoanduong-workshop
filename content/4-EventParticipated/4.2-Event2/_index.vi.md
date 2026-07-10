@@ -25,11 +25,11 @@ pre: " <b> 4.2. </b> "
 
 ### Những Gì Học Được
 
-## Tư duy thiết kế
+### Tư duy thiết kế
 - Theo dõi thôi chưa đủ, hệ thống cần tự sửa lỗi: Phát hiện ra lỗi (Observability) mới chỉ là bước đầu. Hệ thống hiện đại ngày nay cần hướng tới khả năng tự động xử lý và khắc phục sự cố luôn khi có vấn đề xảy ra.
 - Dùng nhiều AI nhỏ tốt hơn một AI lớn: Việc chia nhỏ công việc cho một nhóm các AI Agent chuyên nhiệm sẽ mang lại hiệu quả và độ chính xác cao hơn là dùng một mô hình AI tổng quát để ôm đồm mọi thứ.
 - Production luôn khó hơn Demo: Môi trường chạy thực tế (Production) luôn phức tạp, nhiều biến số và phát sinh nhiều vấn đề hơn rất nhiều so với lúc làm Demo thử nghiệm.
-## Kiến trúc kỹ thuật
+### Kiến trúc kỹ thuật
 - Cách Voice AI xử lý dữ liệu liên tục: Hiểu được kiến trúc truyền dữ liệu dạng luồng (Streaming) để hệ thống xử lý giọng nói mượt mà với độ trễ thấp.
 - Kết nối Cloud với hệ thống thoại: Biết cách liên kết và tích hợp hạ tầng đám mây với các dịch vụ gọi điện thoại.
 - Quy trình xử lý lỗi tự động: Nắm rõ các bước từ lúc hệ thống tự phát hiện lỗi cho đến khi tự động chạy kịch bản sửa lỗi mà không cần con người phải can thiệp thủ công.

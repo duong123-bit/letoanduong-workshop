@@ -22,11 +22,11 @@ pre: " <b> 4.2. </b> "
 - Stalled MTTR Optimization: Identifying why the Mean Time to Resolution remains unchanged despite continuous investments in personnel and technology.
 - A Strategic Path Forward with AI and Automation: The Importance of Transitioning to an Intelligent Operating Model to Curb Infrastructure Costs and Drive Breakthroughs in Operational Performance.
 ### Key Takeaways
-## Design thinking
+### Design thinking
 - Monitoring alone is insufficient; systems need to be self-healing. Detecting errors—or observability—is merely the first step. Modern systems must aim for the capability to automatically handle and resolve issues the moment they arise.
 - Using multiple small AI agents is better than relying on a single large AI: Breaking down tasks among a team of specialized AI agents yields greater efficiency and accuracy than using a general-purpose AI model to handle everything.
 - Production is always more challenging than a demo: The actual operating environment (production) is far more complex, involves more variables, and gives rise to significantly more issues than the experimental demo phase.
-## Technical architecture
+### Technical architecture
 - How Voice AI processes data continuously: Understanding streaming data architecture to ensure smooth, low-latency voice processing.
 - Connecting the Cloud to voice systems: Learn how to link and integrate cloud infrastructure with telephony services.
 - Automated error handling process: Understand the steps from the moment the system automatically detects an error until it executes a repair script without requiring manual human intervention.
