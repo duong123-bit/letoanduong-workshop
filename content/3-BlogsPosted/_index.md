@@ -1,22 +1,19 @@
 ---
-title: "Blogs Posted"
+title: "Translated Blogs"
 date: 2024-01-01
-weight: 3
+weight: 4
 chapter: false
-pre: " <b> 3. </b> "
+pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
+{{% notice warning %}} 
 ⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
-This section will list and introduce the blogs you have posted to [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). For example:
+This section will list and introduce the blogs you have translated. For example:
 
-###  [Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY](3.1-Blog1/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+###  [Blog 1 - Getting started with healthcare data lakes: Using microservices](4.1-Blog1/)
+This blog introduces how to get started building a healthcare data lake by applying a microservices architecture. You will learn why data lakes are crucial for storing and analyzing diverse healthcare data (electronic health records, lab results, medical IoT data...), and how microservices make the system flexible, scalable, and easier to maintain. The article also provides guidance on setting up the environment, organizing data processing pipelines, and ensuring compliance with security & privacy standards such as HIPAA.
 
-###  [Blog 2 - ...](3.2-Blog2/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
-
-###  [Blog 3 - ...](3.3-Blog3/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+###  [Blog 2 - ...](4.2-Blog2/)
+This blog introduces how to get started building a healthcare data lake by applying a microservices architecture. You will learn why data lakes are crucial for storing and analyzing diverse healthcare data (electronic health records, lab results, medical IoT data...), and how microservices make the system flexible, scalable, and easier to maintain. The article also provides guidance on setting up the environment, organizing data processing pipelines, and ensuring compliance with security & privacy standards such as HIPAA.

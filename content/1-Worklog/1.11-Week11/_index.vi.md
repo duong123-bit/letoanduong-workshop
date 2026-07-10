@@ -1,7 +1,7 @@
 ---
 title: "Worklog Tuần 11"
-date: 2024-01-01
-weight: 2
+date: 2026-06-26
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
@@ -9,51 +9,21 @@ pre: " <b> 1.11. </b> "
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
-
 ### Mục tiêu tuần 11:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Nghiên cứu triển khai các chức năng mở rộng nâng cao trải nghiệm tra cứu thông tin ngữ nghĩa.
+* Thiết lập hệ thống giám sát an toàn thông tin, phân quyền chặt chẽ và mã hóa dữ liệu.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Nghiên cứu và thiết kế các chức năng mở rộng nhằm nâng cao trải nghiệm tương tác của người dùng  | 26/06/2026 | 26/06/2026 | https://docs.aws.amazon.com/|
+| 3 | - Tích hợp cổng API AWS AppSync GraphQL kết hợp cơ sở dữ liệu DynamoDB  | 29/06/2026 | 29/06/2026 | https://docs.aws.amazon.com/appsync/|
+| 4 | - Sử dụng mô hình Bedrock Embeddings để chuyển đổi văn bản sang dạng vector ngữ nghĩa  | 30/06/2026 | 30/06/2026 | https://docs.aws.amazon.com/bedrock/|
+| 5 | - Xây dựng hệ thống Chatbot tương tác trực tiếp với tài liệu và cập nhật dữ liệu thời gian thực (Real-time)  | 01/07/2026 | 01/07/2026 | https://docs.aws.amazon.com/bedrock/|
+| 6 | - Thiết lập cơ chế giám sát logs truy cập và phân quyền sử dụng <br> - Cấu hình mã hóa dữ liệu lưu trữ và dữ liệu truyền tải để tăng cường bảo mật  | 02/07/2026 | 02/07/2026 |https://docs.aws.amazon.com/cloudwatch/ |
 
 ### Kết quả đạt được tuần 11:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Làm chủ việc đồng bộ dữ liệu song song thời gian thực thông qua AppSync Subscriptions.
+* Ứng dụng thành công kỹ thuật nhúng vector (Embeddings) để tìm kiếm nội dung theo ngữ cảnh thay vì từ khóa thuần túy.
+* Hoàn thiện mô hình RAG cho phép người dùng đặt câu hỏi và nhận câu trả lời chính xác dựa trên dữ liệu của chính file tài liệu.
+* Đảm bảo hệ thống đạt chuẩn an toàn cao nhờ các chính sách mã hóa toàn diện (Encryption at rest & in transit).

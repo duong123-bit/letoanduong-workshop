@@ -13,25 +13,26 @@ chapter: false
 {{% /notice %}}
 
 ### Student Information:
-&emsp; **Full Name:** Nguyen Van A
+&emsp; **Full Name:** Le Toan Duong
 
-&emsp; **Phone Number:** 0989888999 
-
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Phone Number:** 0901374098
+&emsp; **Email:** toand3810@gmail.com
 
 &emsp; **University:** Ho Chi Minh City University of Technology and Education
 
 &emsp; **Major:** Information Technology
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** 22DTHA3
 
 &emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
 
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Duration:** From 17/04/2024 to 10/07/2026
 
-![Your profile picture](/images/avatar.png)
+![Your profile picture](images/duong.png)
+
+
 
 ### Report Content
 

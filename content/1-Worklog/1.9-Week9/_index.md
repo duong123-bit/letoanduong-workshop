@@ -1,7 +1,7 @@
 ---
 title: "Week 9 Worklog"
-date: 2024-01-01
-weight: 1
+date: 2026-06-12
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
@@ -9,49 +9,21 @@ pre: " <b> 1.9. </b> "
 ⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
 {{% /notice %}}
 
-
 ### Week 9 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Design cloud storage spaces and manage multi-format digital assets seamlessly.
+* Formulate schema metadata layouts to structure documents effectively.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Research and design structural databases for secure cloud document storage and querying  | 12/06/2026 | 12/06/2026 | https://docs.aws.amazon.com/textract/|
+| 3 | - Integrate Amazon S3 buckets alongside AWS Amplify Storage components  | 15/06/2026 | 15/06/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html|
+| 4 | - Connect backend models by mapping DynamoDB tables to track uploaded asset lists  | 16/06/2026 | 16/06/2026 | https://docs.aws.amazon.com/amazondynamodb/|
+| 5 | - Develop multi-file batch upload progress trackers, document lists, and asset downloading routes  | 17/06/2026 | 17/06/2026 |https://docs.amplify.aws/|
+| 6 | - Code file removal functions <br> - Design metadata structures to document descriptions, sizes, and file extensions  | 18/06/2026 | 18/06/2026 |https://docs.aws.amazon.com/amazondynamodb/|
 
 ### Week 9 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Formed a high-throughput asset pipeline utilizing Amazon S3 cloud buckets.
+* Successfully linked real-time database tracking on DynamoDB for file uploads.
+* Built intuitive responsive interfaces managing file batch ingestion, views, and downloads.
+* Created extensible metadata schemas for rapid filtering and index searching.

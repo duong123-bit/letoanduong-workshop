@@ -1,31 +1,76 @@
 ---
 title: "Blog 1"
-date: 2024-01-01
+date: 2026-06-20
 weight: 1
 chapter: false
-pre: " <b> 3.1. </b> "
+pre: " <b>3.1.</b> "
 ---
+
 {{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
+⚠️ **Note:** The content below is summarized and rewritten based on the official AWS blog and does not copy the original article.
 {{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+# Significant New Capabilities Make It Easier to Use Amazon Bedrock to Build and Scale Generative AI Applications – And Achieve Impressive Results
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+## Introduction
 
-Key points to know:
+Amazon Bedrock is a fully managed Generative AI service provided by Amazon Web Services (AWS). It enables developers to build and deploy AI applications without managing infrastructure or training foundation models. In this article, AWS introduces several new capabilities that simplify the development, scaling, and management of Generative AI applications.
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+---
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+## Main Content
 
-...Image...
+### Support for Multiple Foundation Models
 
-...Link...
+Amazon Bedrock provides access to multiple Foundation Models from providers including Amazon Titan, Anthropic Claude, Meta Llama, Cohere, AI21 Labs, and Mistral AI. Developers can choose the most appropriate model for different use cases without changing their application architecture.
 
-...Guide...
+### Amazon Bedrock Guardrails
+
+Amazon Bedrock Guardrails improve AI safety by allowing developers to filter inappropriate content, protect sensitive information, enforce organizational policies, and reduce harmful or inaccurate AI-generated responses.
+
+### Knowledge Bases
+
+Knowledge Bases simplify the implementation of Retrieval-Augmented Generation (RAG) applications by connecting foundation models with enterprise data sources. This helps improve answer accuracy and reduces AI hallucinations.
+
+### Model Evaluation
+
+Amazon Bedrock provides model evaluation tools that allow developers to compare response quality, performance, and cost across multiple foundation models before deployment.
+
+---
+
+## Key Highlights
+
+- Access to multiple Foundation Models through a unified platform.
+- No infrastructure or GPU management required.
+- Easy integration with AWS services.
+- Guardrails improve AI safety and security.
+- Knowledge Bases simplify RAG implementation.
+- Model Evaluation helps developers select the most suitable AI model.
+
+---
+
+## What I Learned
+
+After reading this article, I gained a better understanding of:
+
+- The role of Amazon Bedrock in Generative AI development.
+- How multiple Foundation Models can be used within one platform.
+- The importance of Guardrails for AI safety.
+- How Knowledge Bases support Retrieval-Augmented Generation (RAG).
+- The value of evaluating AI models before production deployment.
+
+---
+
+## Conclusion
+
+Amazon Bedrock continues to evolve as one of AWS's most important Generative AI services. New capabilities such as Guardrails, Knowledge Bases, and Model Evaluation make it easier to build, deploy, and scale secure and efficient AI applications.
+
+---
+
+## References
+
+**AWS Machine Learning Blog**
+
+**Significant new capabilities make it easier to use Amazon Bedrock to build and scale generative AI applications – and achieve impressive results**
+
+https://aws.amazon.com/blogs/machine-learning/new-capabilities-make-it-easier-to-use-amazon-bedrock-to-build-and-scale-generative-ai-applications-and-deliver-impact/

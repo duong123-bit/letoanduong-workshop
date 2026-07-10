@@ -1,7 +1,7 @@
 ---
 title: "Worklog Tuần 6"
-date: 2024-01-01
-weight: 1
+date: 2026-05-22
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
@@ -9,50 +9,21 @@ pre: " <b> 1.6. </b> "
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
-
 ### Mục tiêu tuần 6:
-
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Nghiên cứu giám sát nâng cao và kiểm soát quyền truy cập dựa trên tag tài nguyên.
+* Làm chủ các công cụ vận hành hệ thống quy mô lớn và truy cập máy chủ từ xa bảo mật.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Nghiên cứu hệ thống giám sát nâng cao bằng cách kết hợp Amazon CloudWatch và Grafana  | 22/05/2026 | 22/05/2026 | <https://cloudjourney.awsstudygroup.com/>|
+| 3 | - Tham gia hội thảo nâng cao về CloudWatch nhằm nâng cao kỹ năng theo dõi và cảnh báo tự động  | 25/05/2026 | 25/05/2026 | <https://cloudjourney.awsstudygroup.com/>|
+| 4 | - Tìm hiểu cách phân loại, quản lý tài nguyên bằng Tags và Resource Groups trên AWS  | 26/05/2026 | 26/05/2026 | <https://cloudjourney.awsstudygroup.com/>|
+| 5 | - Nghiên cứu mô hình kiểm soát truy cập phân quyền bằng AWS IAM kết hợp với Tags tài nguyên  | 27/05/2026 | 27/05/2026 | <https://cloudjourney.awsstudygroup.com/>|
+| 6 | - Nghiên cứu quản lý điều hành tập trung hạ tầng bằng AWS Systems Manager <br> - Thực hành truy cập từ xa an toàn qua Session Manager  | 28/05/2026 | 28/05/2026 | <https://cloudjourney.awsstudygroup.com/>|
 
 ### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Tích hợp thành công và trực quan hóa các dữ liệu log, metric từ CloudWatch lên giao diện Grafana.
+* Quản trị và phân nhóm tài nguyên một cách khoa học nhờ quy hoạch chiến lược Tags hệ thống.
+* Áp dụng thành công cơ chế phân quyền động dựa trên nhãn điều kiện (ABAC) trong IAM.
+* Loại bỏ hoàn toàn rủi ro lộ key SSH truyền thống bằng việc chuyển sang dùng Session Manager để remote máy chủ.

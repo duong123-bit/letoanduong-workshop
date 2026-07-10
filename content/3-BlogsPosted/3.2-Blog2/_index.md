@@ -1,31 +1,76 @@
 ---
 title: "Blog 2"
-date: 2024-01-01
-weight: 1
+date: 2026-06-28
+weight: 2
 chapter: false
-pre: " <b> 3.2. </b> "
+pre: " <b>3.2.</b> "
 ---
+
 {{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
+⚠️ **Note:** The content below is summarized and rewritten based on the official AWS blog and does not copy the original article.
 {{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+# Build a Context-Aware RAG Application Using Knowledge Bases for Amazon Bedrock
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+## Introduction
 
-Key points to know:
+Retrieval-Augmented Generation (RAG) is one of the most effective approaches for improving the quality of Generative AI responses. In this article, AWS demonstrates how to build a context-aware RAG application using Knowledge Bases for Amazon Bedrock to retrieve enterprise data and generate more accurate responses.
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+---
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+## Main Content
 
-...Image...
+### Retrieval-Augmented Generation (RAG)
 
-...Link...
+RAG combines information retrieval with the generative capabilities of Foundation Models. Instead of relying solely on pretrained knowledge, the model retrieves relevant information from a knowledge base before generating a response.
 
-...Guide...
+### Knowledge Bases for Amazon Bedrock
+
+Knowledge Bases connect Foundation Models with enterprise data sources such as Amazon S3. AWS automatically manages document indexing, embedding generation, and retrieval, significantly reducing development effort.
+
+### Context-Aware Retrieval
+
+The article explains how providing additional context improves response quality by helping the AI better understand user intent before generating answers.
+
+### Scalability
+
+Amazon Bedrock is a fully managed service that enables developers to scale RAG applications without managing AI infrastructure or servers.
+
+---
+
+## Key Highlights
+
+- Automatic knowledge base creation.
+- Built-in Retrieval-Augmented Generation (RAG).
+- Improved response accuracy.
+- Reduced AI hallucinations.
+- Seamless integration with Amazon Bedrock.
+- No infrastructure management required.
+
+---
+
+## What I Learned
+
+After reading this article, I gained a better understanding of:
+
+- How Retrieval-Augmented Generation (RAG) works.
+- The role of Knowledge Bases in Amazon Bedrock.
+- How embeddings improve semantic search.
+- The importance of context-aware retrieval.
+- How AWS simplifies enterprise AI application development.
+
+---
+
+## Conclusion
+
+Knowledge Bases for Amazon Bedrock make it easier to build scalable RAG applications while improving response accuracy and reducing hallucinations. The service provides an efficient solution for organizations that want to leverage enterprise data in Generative AI applications.
+
+---
+
+## References
+
+AWS Machine Learning Blog
+
+**Build a context-aware RAG application using Knowledge Bases for Amazon Bedrock**
+
+https://aws.amazon.com/blogs/machine-learning/build-a-context-aware-rag-application-using-knowledge-bases-for-amazon-bedrock/

@@ -1,31 +1,76 @@
 ---
 title: "Blog 2"
-date: 2024-01-01
-weight: 1
+date: 2026-06-28
+weight: 2
 chapter: false
-pre: " <b> 3.2. </b> "
+pre: " <b>3.2.</b> "
 ---
+
 {{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+⚠️ **Lưu ý:** Nội dung dưới đây được tổng hợp và trình bày theo hiểu biết cá nhân dựa trên bài viết chính thức của AWS, không sao chép nguyên văn.
 {{% /notice %}}
 
-# SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
+# Xây dựng ứng dụng RAG theo ngữ cảnh với Knowledge Bases for Amazon Bedrock
 
-Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+## Giới thiệu
 
-Các điểm chính cần nắm:
+Retrieval-Augmented Generation (RAG) là một trong những kỹ thuật phổ biến để nâng cao chất lượng phản hồi của các mô hình Generative AI. Trong bài viết này, AWS hướng dẫn cách xây dựng một ứng dụng RAG sử dụng Knowledge Bases for Amazon Bedrock nhằm giúp AI truy xuất dữ liệu từ nguồn tài liệu doanh nghiệp và tạo ra câu trả lời chính xác hơn.
 
-* Session policy là một IAM policy inline được chỉ định khi tạo hoặc cập nhật Pod Identity association.
-* Quyền hiệu quả = intersection (giao) giữa permissions của IAM role và session policy → session policy chỉ có thể thu hẹp, không thể mở rộng quyền.
-* Giúp tránh tình trạng over-permissioning khi reuse chung một IAM role cho nhiều workloads có nhu cầu khác nhau.
-* Hỗ trợ cả same-account và cross-account (qua IAM role chaining).
-* Giảm đáng kể số lượng IAM roles cần quản lý, tránh chạm giới hạn quota IAM trong cluster lớn.
-* Cấu hình dễ dàng qua AWS Management Console, AWS CLI hoặc AWS SDK khi tạo association giữa Kubernetes ServiceAccount và IAM role.
+---
 
-Tính năng này đặc biệt hữu ích khi bạn có nhiều ứng dụng chạy trên cùng một IAM role nhưng cần giới hạn quyền khác nhau (ví dụ: một pod chỉ đọc S3 bucket cụ thể, pod khác chỉ gọi một số API nhất định).
+## Nội dung chính
 
-...Hình ảnh...
+### Retrieval-Augmented Generation (RAG)
 
-...Link...
+RAG là phương pháp kết hợp giữa quá trình truy xuất dữ liệu và khả năng sinh nội dung của Foundation Models. Thay vì chỉ dựa trên dữ liệu đã được huấn luyện, mô hình sẽ tìm kiếm thông tin liên quan trong Knowledge Base trước khi tạo phản hồi.
 
-...Hướng dẫn...
+### Knowledge Bases for Amazon Bedrock
+
+Knowledge Bases giúp kết nối Foundation Models với nhiều nguồn dữ liệu như Amazon S3 hoặc các kho dữ liệu doanh nghiệp. AWS tự động thực hiện quá trình lập chỉ mục, tạo embedding và truy xuất dữ liệu, giúp giảm đáng kể khối lượng công việc của nhà phát triển.
+
+### Truy xuất theo ngữ cảnh
+
+Bài viết giới thiệu cách cải thiện chất lượng phản hồi bằng việc bổ sung ngữ cảnh cho câu hỏi của người dùng. Nhờ đó, AI có thể hiểu rõ hơn mục đích của câu hỏi và đưa ra câu trả lời phù hợp hơn.
+
+### Khả năng mở rộng
+
+AWS cung cấp hạ tầng được quản lý hoàn toàn, giúp ứng dụng RAG có khả năng mở rộng linh hoạt mà không cần quản lý máy chủ hay hạ tầng AI.
+
+---
+
+## Những điểm nổi bật
+
+- Tự động tạo Knowledge Base từ dữ liệu doanh nghiệp.
+- Hỗ trợ Retrieval-Augmented Generation (RAG).
+- Cải thiện độ chính xác của phản hồi.
+- Giảm hiện tượng Hallucination.
+- Tích hợp dễ dàng với Amazon Bedrock.
+- Không cần quản lý hạ tầng AI.
+
+---
+
+## Kiến thức học được
+
+Sau khi đọc bài viết, tôi hiểu rõ hơn về:
+
+- Nguyên lý hoạt động của hệ thống Retrieval-Augmented Generation (RAG).
+- Cách Amazon Bedrock Knowledge Bases hỗ trợ truy xuất dữ liệu.
+- Vai trò của Embedding trong việc tìm kiếm ngữ nghĩa.
+- Lợi ích của việc bổ sung ngữ cảnh nhằm nâng cao chất lượng phản hồi của AI.
+- Cách AWS đơn giản hóa quá trình xây dựng các ứng dụng AI sử dụng dữ liệu nội bộ.
+
+---
+
+## Kết luận
+
+Knowledge Bases for Amazon Bedrock giúp việc xây dựng các ứng dụng RAG trở nên đơn giản hơn, đồng thời nâng cao độ chính xác của phản hồi và giảm hiện tượng AI tạo ra thông tin không chính xác. Đây là giải pháp phù hợp cho các doanh nghiệp muốn khai thác dữ liệu nội bộ để xây dựng các ứng dụng Generative AI.
+
+---
+
+## Nguồn tham khảo
+
+AWS Machine Learning Blog
+
+**Build a context-aware RAG application using Knowledge Bases for Amazon Bedrock**
+
+https://aws.amazon.com/blogs/machine-learning/build-a-context-aware-rag-application-using-knowledge-bases-for-amazon-bedrock/
