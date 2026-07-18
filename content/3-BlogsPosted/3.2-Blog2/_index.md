@@ -6,9 +6,6 @@ chapter: false
 pre: " <b>3.2.</b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The content below is summarized and rewritten based on the official AWS blog and does not copy the original article.
-{{% /notice %}}
 
 # Build a Context-Aware RAG Application Using Knowledge Bases for Amazon Bedrock
 

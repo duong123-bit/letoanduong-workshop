@@ -5,7 +5,7 @@ weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
-## Event Report: “Saturday Meetup”
+# Event Report: “Saturday Meetup”
 ### Objectives of Participation
 - Network at the Saturday Meetup organized by the AWS Study Group community.
 
@@ -42,3 +42,5 @@ pre: " <b> 4.1. </b> "
 - The Hackathon panel was deeply inspiring, offering concrete lessons on lean product optimization, team management, and how to adapt flexibly to critical issues right before deadlines. Meanwhile, the real-world journey of the "Dai Viet Tu Vi" project helped me clearly visualize the stages of design, infrastructure deployment, and maintaining web system stability under production workloads.
 
 - Beyond technical knowledge, the event served as a powerful bridge to integrate into the tech community, consult industry seniors, and connect with like-minded peers who share the same career direction in Cloud Computing and Software Engineering.
+
+![alt text](../../images/events/1784248438806_266719751864609956_4472555495153038086_d26cc491aedefde0c07948a512144758.jpg)

@@ -6,9 +6,6 @@ chapter: false
 pre: " <b>3.1.</b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Nội dung dưới đây được tổng hợp và trình bày theo hiểu biết cá nhân dựa trên bài viết chính thức của AWS, không sao chép nguyên văn.
-{{% /notice %}}
 
 # Những tính năng mới giúp việc xây dựng và mở rộng ứng dụng Generative AI với Amazon Bedrock trở nên dễ dàng hơn
 

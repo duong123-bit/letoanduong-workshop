@@ -42,3 +42,6 @@ pre: " <b> 4.1. </b> "
 - Buổi Saturday Meetup đã mang đến cho mình những góc nhìn vô cùng trực quan, giúp khỏa lấp khoảng cách giữa lý thuyết giảng đường và bức tranh công nghệ thực tế nhờ vào câu chuyện từ các khách mời giàu trải nghiệm.
 - Nội dung thảo luận về Hackathon đem lại nguồn cảm hứng lớn về tư duy tối ưu hóa sản phẩm tinh gọn, kỹ năng quản trị nhân sự trong team cũng như cách ứng biến linh hoạt trước các sự cố sát giờ G. Trong khi đó, hành trình thực chiến của dự án "Đại Việt Tử Vi" lại giúp mình hình dung rõ nét về các giai đoạn thiết kế, triển khai hạ tầng và duy trì độ ổn định cho một hệ thống web trong môi trường thực tế.
 - Không chỉ dừng lại ở khía cạnh chuyên môn, sự kiện thực sự là một cầu nối giá trị giúp mình hòa nhập vào cộng đồng, có cơ hội tham vấn các tiền bối đi trước và tìm thấy những người bạn đồng hành chung chí hướng trong mảng Điện toán đám mây và Kỹ thuật phần mềm.
+### Ảnh tham gia sự kiện
+
+![alt text](../../.. /images/events/1784248438806_266719751864609956_4472555495153038086_d26cc491aedefde0c07948a512144758.jpg)

@@ -43,3 +43,5 @@ pre: " <b> 4.2. </b> "
 - Qua các phần chia sẻ của diễn giả, mình ấn tượng nhất với giải pháp dùng AI Agent để tự động gánh vác các tác vụ vận hành. Cách làm này vừa giúp doanh nghiệp tiết kiệm đáng kể chi phí Cloud, vừa rút ngắn thời gian giải quyết khi hệ thống gặp trục trặc.
 - Chuyên đề về hệ thống Voice Agent và truyền dữ liệu dạng luồng (Streaming) cũng giúp mình nhận ra những bài toán hóc búa khi làm AI hội thoại, nhất là các rào cản đặc thù khi xử lý ngôn ngữ và ngữ điệu tiếng Việt.
 - Không chỉ thu về kiến thức chuyên môn, đây còn là dịp may mắn để mình được trò chuyện trực tiếp với các tiền bối và mọi người trong cộng đồng AWS, từ đó học hỏi được nhiều mẹo làm nghề thực tế và mở rộng thêm vòng kết nối cho bản thân.
+
+![alt text](../../../images/events/1784248438781_266719751864609956_4472555495153038086_b573014913f9147928dacbf0c44b3d9b.jpg)

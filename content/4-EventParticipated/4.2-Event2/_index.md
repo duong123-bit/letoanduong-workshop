@@ -43,4 +43,4 @@ pre: " <b> 4.2. </b> "
 - Working on Voice Agent systems and data streaming also helped me realize the complex challenges involved in developing conversational AI—particularly the specific hurdles associated with processing the Vietnamese language and its intonation.
 - Beyond gaining professional knowledge, this was a fantastic opportunity to engage directly with experienced professionals and members of the AWS community; I was able to pick up practical industry tips and expand my professional network.
 
-
+![alt text](../../images/events/1784248438781_266719751864609956_4472555495153038086_b573014913f9147928dacbf0c44b3d9b.jpg)

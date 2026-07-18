@@ -6,9 +6,7 @@ chapter: false
 pre: " <b>3.2.</b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Nội dung dưới đây được tổng hợp và trình bày theo hiểu biết cá nhân dựa trên bài viết chính thức của AWS, không sao chép nguyên văn.
-{{% /notice %}}
+
 
 # Xây dựng ứng dụng RAG theo ngữ cảnh với Knowledge Bases for Amazon Bedrock
 

@@ -6,9 +6,7 @@ chapter: false
 pre: " <b>3.1.</b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The content below is summarized and rewritten based on the official AWS blog and does not copy the original article.
-{{% /notice %}}
+
 
 # Significant New Capabilities Make It Easier to Use Amazon Bedrock to Build and Scale Generative AI Applications – And Achieve Impressive Results
 
