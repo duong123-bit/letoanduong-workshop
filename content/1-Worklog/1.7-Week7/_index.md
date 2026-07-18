@@ -15,10 +15,10 @@ pre: " <b> 1.7. </b> "
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
 | 2 | - Review requirements and outline development directions for the "AI-Powered Smart Document Assistant" project  | 29/05/2026 | 29/05/2026 | <https://cloudjourney.awsstudygroup.com/>|
-| 3 | - Research AWS Amplify Gen 2 concepts for streamlined full-stack development  | 01/06/2026 | 01/06/2026 | |
-| 4 | - Study modern Angular 18 Standalone Components to adopt in the frontend application  | 02/06/2026 | 02/06/2026 | |
-| 5 | - Design system architecture models combining Cognito, S3, DynamoDB, Lambda, and AppSync  | 03/06/2026 | 03/06/2026 | |
-| 6 | - Initialize project scaffolding, configure target environment settings, and set up local dev tools  | 04/06/2026 | 04/06/2026 | |
+| 3 | - Research AWS Amplify Gen 2 concepts for streamlined full-stack development  | 01/06/2026 | 01/06/2026 |https://docs.amplify.aws/ |
+| 4 | - Study modern Angular 18 Standalone Components to adopt in the frontend application  | 02/06/2026 | 02/06/2026 |  https://docs.amplify.aws/|
+| 5 | - Design system architecture models combining Cognito, S3, DynamoDB, Lambda, and AppSync  | 03/06/2026 | 03/06/2026 |https://docs.amplify.aws/  |
+| 6 | - Initialize project scaffolding, configure target environment settings, and set up local dev tools  | 04/06/2026 | 04/06/2026 | https://docs.amplify.aws/|
 
 ### Week 7 Achievements:
 * Finalized comprehensive structural plans for the "AI-Powered Smart Document Assistant" app.

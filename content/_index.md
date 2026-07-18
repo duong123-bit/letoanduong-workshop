@@ -7,9 +7,6 @@ chapter: false
 
     
 # Internship Report
-
-
-
 ### Student Information:
 &emsp; **Full Name:** Le Toan Duong
 
