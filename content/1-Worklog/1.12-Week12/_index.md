@@ -18,7 +18,7 @@ pre: " <b> 1.12. </b> "
 | 3 | - Conduct comprehensive testing for authentication, document management, and AI pipelines | 06/07/2026 | 06/07/2026 | https://docs.aws.amazon.com/|
 | 4 | - Package and deploy the web application onto AWS Amplify Hosting | 07/07/2026 | 07/07/2026 | https://docs.aws.amazon.com/iam/|
 | 5 | - Set up cloud monitoring and trace system behavior using Amazon CloudWatch | 08/07/2026 | 08/07/2026 |https://docs.aws.amazon.com/cloudwatch/ |
-| 6 | - Debug residual errors, finalize project documentation, and compile the final internship report | 09/07/2026 | 10/07/2026 | |
+| 6 | - Debug residual errors, finalize project documentation, and compile the final internship report | 09/07/2026 | 30/07/2026 | |
 
 ### Week 12 Achievements:
 * Achieved a fully optimized and seamless web application system.

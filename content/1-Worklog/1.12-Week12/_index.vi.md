@@ -18,7 +18,7 @@ pre: " <b> 1.12. </b> "
 | 3 | - Tiến hành kiểm thử toàn diện các tính năng xác thực, quản lý tài liệu và pipeline xử lý AI | 06/07/2026 | 06/07/2026 |https://docs.aws.amazon.com/ |
 | 4 | - Đóng gói và triển khai ứng dụng web lên nền tảng AWS Amplify Hosting | 07/07/2026 | 07/07/2026 | https://docs.aws.amazon.com/iam/|
 | 5 | - Cấu hình hệ thống giám sát và theo dõi vận hành ứng dụng bằng Amazon CloudWatch | 08/07/2026 | 08/07/2026 | https://docs.aws.amazon.com/cloudwatch/|
-| 6 | - Khắc phục các lỗi còn tồn đọng, hoàn thiện tài liệu kỹ thuật và chuẩn bị báo cáo thực tập tốt nghiệp | 09/07/2026 | 10/07/2026 | |
+| 6 | - Khắc phục các lỗi còn tồn đọng, hoàn thiện tài liệu kỹ thuật và chuẩn bị báo cáo thực tập tốt nghiệp | 09/07/2026 | 30/07/2026 | |
 
 ### Kết quả đạt được tuần 12:
 * Hệ thống web hoàn thiện chạy ổn định, mượt mà và tối ưu hóa tốt về mặt mã nguồn.

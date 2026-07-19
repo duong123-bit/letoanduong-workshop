@@ -8,7 +8,7 @@ pre: " <b> 6. </b> "
 
 
 
-During my internship at **Amazon Web Services Vietnam Co., Ltd.** from **April 17, 2026**, to **July 10, 2026**, I had the opportunity to learn, develop, and apply the knowledge gained at **Ho Chi Minh City University of Technology (HUTECH)** to a real-world work environment.  
+During my internship at **Amazon Web Services Vietnam Co., Ltd.** from **April 17, 2026**, to **July 30, 2026**, I had the opportunity to learn, develop, and apply the knowledge gained at **Ho Chi Minh City University of Technology (HUTECH)** to a real-world work environment.  
 Participating in the **FCJ Cloud Internship** enabled me to grow comprehensively. Regarding hard skills, I enhanced my **programming, analysis,** and system configuration capabilities on the **AWS** platform. As for soft skills, my **technical report writing, communication,** and teamwork abilities improved significantly through practical tasks. These experiences have provided a solid foundation for my future career.
 
 Regarding my work ethic, I consistently maintain a strong sense of responsibility in fulfilling assigned tasks and strictly adhere to all organizational regulations. At the same time, I proactively communicate and learn from my colleagues to ensure seamless collaboration and optimize overall work efficiency.
