@@ -22,8 +22,7 @@ Sau khi hoàn thành phần này, bạn sẽ có một pipeline hoạt động h
 
 ### Kiến trúc tổng quan
 
-![Architecture Diagram](/images/2-Proposal/architecture.png)
-
+![alt text](../../../images/2-Proposal/architecture.png)
 ---
 
 ### Các resource AWS sẽ tạo trong phần này

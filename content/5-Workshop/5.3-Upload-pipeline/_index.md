@@ -22,8 +22,8 @@ Once completed, you will have a fully functional pipeline:
 
 ### Architecture Overview
 
-![Architecture Diagram](/images/2-Proposal/architecture.png)
 
+![alt text](../../images/2-Proposal/architecture.png)
 ---
 
 ### AWS Resources to Create
