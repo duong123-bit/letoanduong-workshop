@@ -241,7 +241,7 @@ Sau khi hoàn thành bước này, bạn sẽ có:
 - File `amplify/data/resource.ts` chứa Document model (5 GSI indexes) và UserQuota model
 - File `amplify/backend.ts` import đầy đủ 5 resource: `auth`, `data`, `storage`, `lambdaATrigger`, `lambdaBTextractResult`
 
-![PLACEHOLDER-5.3-01](/images/5-Workshop/5.3-Upload-pipeline/5.3-01-amplify-folder-structure.png)
+![amplify-folder-structure](/images/5-Workshop/5.3-Upload-pipeline/5.3-01-amplify-folder-structure.png)
 
 {{% notice tip %}}
 Chưa deploy ở bước này. Các file `handler.ts` chứa logic xử lý sẽ được giải thích chi tiết trong các mục sau. Bước tiếp theo sẽ cấu hình `backend.ts` để kết nối các resource với nhau.

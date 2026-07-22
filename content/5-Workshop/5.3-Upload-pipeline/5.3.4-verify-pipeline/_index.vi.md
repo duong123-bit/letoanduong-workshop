@@ -26,7 +26,7 @@ Received S3 Event: { Records: [{ s3: { bucket: { name: 'smart-doc-storage-...' }
 Processing file: raw/ap-southeast-1:.../1234567890-test.pdf from bucket: ...
 ```
 
-![PLACEHOLDER-5.3-03](/images/5-Workshop/5.3-Upload-pipeline/5.3-03-cloudwatch-lambda-a-s3-trigger.png)
+![cloudwatch-lambda-a-s3-trigger](/letoanduong-workshop/images/5-Workshop/5.3-Upload-pipeline/5.3-03-cloudwatch-lambda-a-s3-trigger.png)
 
 
 ---
@@ -42,7 +42,7 @@ PDF has native text (1234 chars), skipping Textract.
 
 Khi thấy dòng "skipping Textract", nghĩa là Lambda A đã dùng `pdf-parse` để trích xuất text trực tiếp, không cần gọi Textract OCR — giữ nguyên dấu tiếng Việt.
 
-![PLACEHOLDER-5.3-04](/images/5-Workshop/5.3-Upload-pipeline/5.3-04-cloudwatch-pdf-native-text.png)
+![cloudwatch-pdf-native-text](/letoanduong-workshop/images/5-Workshop/5.3-Upload-pipeline/5.3-04-cloudwatch-pdf-native-text.png)
 
 
 ---
@@ -56,7 +56,7 @@ Parsing office file locally: raw/...
 Extracted 5678 characters.
 ```
 
-![PLACEHOLDER-5.3-05](/images/5-Workshop/5.3-Upload-pipeline/5.3-05-cloudwatch-office-file-extract.png)
+![cloudwatch-office-file-extract](/letoanduong-workshop/images/5-Workshop/5.3-Upload-pipeline/5.3-05-cloudwatch-office-file-extract.png)
 
 
 ---
@@ -78,10 +78,10 @@ Textract Job started: <JobId>
 [SNS] Document <id> ready for analysis (text_extracted).
 ```
 
-![PLACEHOLDER-5.3-06](/images/5-Workshop/5.3-Upload-pipeline/5.3-06-cloudwatch-textract-lambda-a-start.png)
+![cloudwatch-textract-lambda-a-start](/letoanduong-workshop/images/5-Workshop/5.3-Upload-pipeline/5.3-06-cloudwatch-textract-lambda-a-start.png)
 
 
-![PLACEHOLDER-5.3-07](/images/5-Workshop/5.3-Upload-pipeline/5.3-07-cloudwatch-lambda-b-sns-callback.png)
+![cloudwatch-lambda-b-sns-callback](/letoanduong-workshop/images/5-Workshop/5.3-Upload-pipeline/5.3-07-cloudwatch-lambda-b-sns-callback.png)
 
 
 ---
@@ -98,7 +98,7 @@ Textract Job started: <JobId>
 [DDB Stream] Document <id> analysis complete.
 ```
 
-![PLACEHOLDER-5.3-08](/images/5-Workshop/5.3-Upload-pipeline/5.3-08-cloudwatch-lambda-b-ddb-stream-ai.png)
+![cloudwatch-lambda-b-ddb-stream-ai](/images/5-Workshop/5.3-Upload-pipeline/5.3-08-cloudwatch-lambda-b-ddb-stream-ai.png)
 
 
 ---
@@ -110,21 +110,21 @@ Textract Job started: <JobId>
 - Xác nhận thư mục `raw/` chứa file vừa upload
 - Nếu text >300K chars, xác nhận thư mục `processed/` chứa file `-text.txt`
 
-![PLACEHOLDER-5.3-09](/images/5-Workshop/5.3-Upload-pipeline/5.3-09-s3-console-raw-folder.png)
+![s3-console-raw-folder](/letoanduong-workshop/images/5-Workshop/5.3-Upload-pipeline/5.3-09-s3-console-raw-folder.png)
 
 
 **Bước 11.** Kiểm tra DynamoDB Console:
 - Mở **DynamoDB → Tables → Document table → Explore table items**
 - Xác nhận document có progression trạng thái đúng: `uploaded` → `processing` → `text_extracted` → (user chọn mode) → `processing` → `done`
 
-![PLACEHOLDER-5.3-10](/images/5-Workshop/5.3-Upload-pipeline/5.3-10-dynamodb-document-status-done.png)
+![dynamodb-document-status-done](/letoanduong-workshop/images/5-Workshop/5.3-Upload-pipeline/5.3-10-dynamodb-document-status-done.png)
 
 
 **Bước 12.** Kiểm tra SNS Console:
 - Mở **SNS → Topics → `textract-ocr-completed-topic`**
 - Xác nhận có subscription active cho Lambda B
 
-![PLACEHOLDER-5.3-11](/images/5-Workshop/5.3-Upload-pipeline/5.3-11-sns-console-subscription-active.png)
+![sns-console-subscription-active](/letoanduong-workshop/images/5-Workshop/5.3-Upload-pipeline/5.3-11-sns-console-subscription-active.png)
 
 
 **Bước 13.** Kiểm tra Lambda Console:
