@@ -16,7 +16,7 @@ The architecture uses two Lambda functions connected by an SNS topic, with Dynam
 
 #### Architecture Diagram
 
-![Architecture Diagram](/images/2-Proposal/architecture.png)
+![alt text](/letoanduong-workshop/images/2-Proposal/architecture.png)
 
 #### Content
 

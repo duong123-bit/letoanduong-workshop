@@ -16,7 +16,7 @@ Kiến trúc gồm hai Lambda function kết nối qua SNS topic, DynamoDB lưu 
 
 #### Sơ đồ kiến trúc
 
-![Architecture Diagram](/images/2-Proposal/architecture.png)
+![alt text](/letoanduong-workshop/images/2-Proposal/architecture.png)
 
 #### Nội dung
 

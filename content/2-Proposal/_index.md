@@ -33,8 +33,7 @@ In modern work environments, users frequently deal with large volumes of scanned
 
 **Overall architecture:**
 
-![Architecture Diagram](/images/2-Proposal/architecture.png)
-
+![alt text](/letoanduong-workshop/images/2-Proposal/architecture.png)
 **AWS Services used:**
 
 | Service | Role |

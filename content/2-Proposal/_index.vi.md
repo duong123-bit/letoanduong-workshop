@@ -33,7 +33,7 @@ Trong môi trường làm việc hiện đại, người dùng thường xuyên 
 
 **Kiến trúc tổng thể:**
 
-![Architecture Diagram](/images/2-Proposal/architecture.png)
+![alt text](/letoanduong-workshop/images/2-Proposal/architecture.png)
 
 **Các dịch vụ AWS sử dụng:**
 
