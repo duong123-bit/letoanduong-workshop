@@ -98,7 +98,7 @@ Textract Job started: <JobId>
 [DDB Stream] Document <id> analysis complete.
 ```
 
-![cloudwatch-lambda-b-ddb-stream-ai](/images/5-Workshop/5.3-Upload-pipeline/5.3-08-cloudwatch-lambda-b-ddb-stream-ai.png)
+![cloudwatch-lambda-b-ddb-stream-ai](/letoanduong-workshop/images/5-Workshop/5.3-Upload-pipeline/5.3-08-cloudwatch-lambda-b-ddb-stream-ai.png)
 
 
 ---
@@ -131,7 +131,7 @@ Textract Job started: <JobId>
 - Mở **Lambda → Functions → `smart-doc-upload-trigger`** và **`smart-doc-textract-result`**
 - Xác nhận invocation count tăng, không có errors
 
-![PLACEHOLDER-5.3-12](/images/5-Workshop/5.3-Upload-pipeline/5.3-12-lambda-console-monitoring.png)
+![lambda-console-monitoring](/letoanduong-workshop/images/5-Workshop/5.3-Upload-pipeline/5.3-12-lambda-console-monitoring.png)
 
 
 ---
@@ -252,7 +252,7 @@ Khi toàn bộ pipeline hoạt động đúng, bạn sẽ thấy:
 | Kiểm tra SNS | Topic có subscription active cho Lambda B |
 | Kiểm tra UserQuota | `uploadedCount` tăng sau mỗi lần upload |
 
-![PLACEHOLDER-5.3-13](/images/5-Workshop/5.3-Upload-pipeline/5.3-13-frontend-document-done-result.png)
+![frontend-document-done-result](/letoanduong-workshop/images/5-Workshop/5.3-Upload-pipeline/5.3-13-frontend-document-done-result.png)
 
 {{% notice tip %}}
 Nếu bạn gặp lỗi không nằm trong danh sách trên, kiểm tra:
